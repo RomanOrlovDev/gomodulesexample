@@ -16,7 +16,7 @@ func main() {
 }
 
 func StartServer(){
-    http.HandleFunc("/", handler
+    http.HandleFunc("/", handler)
     log.Fatal(http.ListenAndServe(":8080", nil))
 }
 
