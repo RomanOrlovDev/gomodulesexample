@@ -16,6 +16,7 @@ func main() {
 }
 
 // this is first comment for feature2
+// this is second comment for feature2
 func StartServer(){
     http.HandleFunc("/", handler)
     log.Fatal(http.ListenAndServe(":8080", nil))
