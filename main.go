@@ -7,7 +7,7 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-    fmt.Fprintf(w, "This is 2ver (branch feature1). Hi there, I love %s!", r.URL.Path[1:])
+    fmt.Fprintf(w, "This is v2 (first MAJOR change). Hi there, I love %s!", r.URL.Path[1:])
 }
 
 func main() {
